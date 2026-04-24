@@ -187,7 +187,7 @@ export const TaskPage = () => {
       <Box
         sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
       >
-        <Typography variant="h5" fontWeight="bold">
+        <Typography variant="h5" sx={{ fontWeight: 'bold' }}>
           Mis Tareas
         </Typography>
         <Button variant="contained" startIcon={<AddIcon />} onClick={openCreate}>
